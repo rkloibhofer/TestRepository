@@ -9,7 +9,8 @@
     <Grid Background="#FFA6D9E4">
         <Label x:Name="Benzinrechner" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="20">Benzinrechner</Label>
         <Label x:Name="literperkilometer" Margin="20,70,0,0">Wie viel Liter pro Kilometer werden verbraucht?</Label>
-        
+        <TextBox Margin="24,98,222,194"/>
+
 
 
     </Grid>
