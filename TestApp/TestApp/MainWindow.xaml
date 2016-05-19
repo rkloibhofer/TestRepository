@@ -10,6 +10,13 @@
         <Label x:Name="Benzinrechner" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="20">Benzinrechner</Label>
         <Label x:Name="literperkilometer" Margin="20,70,0,0">Wie viel Liter pro Kilometer werden verbraucht?</Label>
         <TextBox Margin="24,98,222,194"/>
+        <Label x:Name="distance" Margin="20,141,0,0">Wie viel Kilometer werden gefahren?</Label>
+        <TextBox Margin="24,167,222,125"/>
+        <Label x:Name="price" Margin="20,214,0,0" Content="Wie teuer ist ein Liter?"/>
+        <TextBox Margin="24,242,222,50"/>
+        <Button Margin="316,242,10,44">Berechnen</Button>
+
+
 
 
 
