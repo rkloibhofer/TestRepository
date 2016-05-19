@@ -24,5 +24,19 @@ namespace TestApp
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            float ergfloat;
+
+            float priceFloat = float.Parse(price.Text.Replace(",","."));
+            float distanceFloat = float.Parse(distance.Text.Replace(",", "."));
+            float literperkilometerFloat = float.Parse(literperkilometer.Text.Replace(",", "."));
+
+            ergfloat = literperkilometerFloat/100 * priceFloat;
+            ergfloat = ergfloat * distanceFloat;
+
+            erg.Content = ergfloat.ToString("n2") + " €";
+        }
     }
 }
