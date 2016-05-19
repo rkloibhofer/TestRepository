@@ -13,9 +13,9 @@
         <Label x:Name="distance" Margin="20,141,0,0">Wie viel Kilometer werden gefahren?</Label>
         <TextBox Margin="24,167,222,125"/>
         <Label x:Name="price" Margin="20,214,0,0" Content="Wie teuer ist ein Liter?"/>
-        <TextBox Margin="24,242,222,50"/>
-        <Button Margin="316,242,10,44">Berechnen</Button>
-
+        <TextBox Margin="24,239,222,53"/>
+        <Button Margin="316,239,20,53">Berechnen</Button>
+        <Label Margin="364,124,68,0" HorizontalAlignment="Center" FontSize="46.667"></Label>
 
 
 
