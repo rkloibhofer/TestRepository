@@ -5,11 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" ResizeMode="NoResize">
     <Grid Background="#FFA6D9E4">
         <Label x:Name="Benzinrechner" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="20">Benzinrechner</Label>
-        <Label x:Name="literperkilometer" Margin="20,70,0,0">Wie viel Liter pro Kilometer werden verbraucht?</Label>
-        <TextBox Margin="24,98,222,194"/>
+        <Label Margin="20,70,0,0">Wie viel Liter pro 100 Kilometer werden verbraucht? (l/100km)</Label>
+        <TextBox  x:Name="literperkilometer" Margin="24,98,222,194"/>
+        <Label Margin="20,141,0,0">Wie viel Kilometer werden gefahren? (km)</Label>
+        <TextBox x:Name="distance" Margin="24,167,222,125"/>
+        <Label Margin="20,214,0,0" Content="Wie teuer ist ein Liter? (Preis)"/>
+        <TextBox  x:Name="price" Margin="24,239,222,53"/>
+        <Button Margin="316,239,20,53" Click="Button_Click">Berechnen</Button>
+        <Label  x:Name="erg" Margin="364,124,68,0" HorizontalAlignment="Center" FontSize="20"></Label>
+
 
 
 
