@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525" ResizeMode="NoResize">
     <Grid Background="#FFA6D9E4">
         <Label x:Name="Benzinrechner" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="20">Benzinrechner</Label>
-        <Label Margin="20,70,0,0" Content="Wie viel Liter pro 100 Kilometer werden verbraucht? (l/100km)"/>
+        <Label Margin="20,70,0,0" Content="Wie viel Liter pro 100 Kilometer werden verbrauct? (l/100km)"/>
         <TextBox  x:Name="literperkilometer" Margin="24,98,222,194"/>
         <Label Margin="20,141,0,0">Wie viel Kilometer werden gefahren? (km)</Label>
         <TextBox x:Name="distance" Margin="24,167,222,125"/>
